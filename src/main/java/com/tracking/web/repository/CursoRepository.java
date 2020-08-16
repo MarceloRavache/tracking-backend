@@ -1,4 +1,4 @@
-package com.tracking.apirest.repository;
+package com.tracking.web.repository;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-import com.tracking.apirest.models.Curso;
+import com.tracking.web.models.Curso;
 
 public interface CursoRepository extends JpaRepository<Curso, Long>{
 	@Query("SELECT c FROM Curso c WHERE c.nome LIKE %?1%")

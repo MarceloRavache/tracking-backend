@@ -1,4 +1,4 @@
-package com.tracking.apirest.controllers;
+package com.tracking.web.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tracking.apirest.models.Apresentacao;
-import com.tracking.apirest.models.Curso;
-import com.tracking.apirest.models.Palestra;
-import com.tracking.apirest.models.Usuario;
-import com.tracking.apirest.repository.ApresentacaoRepository;
-import com.tracking.apirest.repository.CursoRepository;
-import com.tracking.apirest.repository.PalestraRepository;
-import com.tracking.apirest.repository.UsuarioRepository;
-import com.tracking.apirest.utils.ConsultaNome;
+import com.tracking.web.models.Apresentacao;
+import com.tracking.web.models.Curso;
+import com.tracking.web.models.Palestra;
+import com.tracking.web.models.Usuario;
+import com.tracking.web.repository.ApresentacaoRepository;
+import com.tracking.web.repository.CursoRepository;
+import com.tracking.web.repository.PalestraRepository;
+import com.tracking.web.repository.UsuarioRepository;
+import com.tracking.web.utils.ConsultaNome;
 
 @RestController
 @RequestMapping(value="/api")

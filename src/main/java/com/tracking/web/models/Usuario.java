@@ -1,4 +1,4 @@
-package com.tracking.apirest.models;
+package com.tracking.web.models;
 
 import java.util.List;
 

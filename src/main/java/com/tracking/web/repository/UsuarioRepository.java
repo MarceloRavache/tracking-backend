@@ -1,14 +1,14 @@
-package com.tracking.apirest.repository;
+package com.tracking.web.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.tracking.apirest.models.Apresentacao;
-import com.tracking.apirest.models.Curso;
-import com.tracking.apirest.models.Palestra;
-import com.tracking.apirest.models.Usuario;
+import com.tracking.web.models.Apresentacao;
+import com.tracking.web.models.Curso;
+import com.tracking.web.models.Palestra;
+import com.tracking.web.models.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
 	@Query("SELECT t FROM Usuario t WHERE t.nome LIKE %?1%")

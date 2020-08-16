@@ -1,4 +1,4 @@
-package com.tracking.apirest.utils;
+package com.tracking.web.utils;
 
 public class ConsultaNome {
 	private String nome;

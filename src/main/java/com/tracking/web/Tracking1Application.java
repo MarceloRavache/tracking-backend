@@ -1,13 +1,13 @@
-package com.tracking.apirest;
+package com.tracking.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TrackingApplication {
+public class Tracking1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TrackingApplication.class, args);
+		SpringApplication.run(Tracking1Application.class, args);
 	}
 
 }
